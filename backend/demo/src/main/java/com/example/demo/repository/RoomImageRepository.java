@@ -1,0 +1,10 @@
+package com.example.demo.repository;
+
+
+import com.example.demo.model.RoomImage;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface RoomImageRepository extends JpaRepository<RoomImage, Long> 
+{
+}
+
